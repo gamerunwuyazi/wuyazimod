@@ -42,7 +42,7 @@ public class proitem extends Item {
 
     private void outputMessage(BlockPos down, PlayerEntity player, Block block) {
         player .sendMessage(Text.literal("Found" + block.asItem().getName().getString() + "at" +
-                "(" + down.getX() + down.getY() + "," + down.getZ() + ")!"),false);
+                "(" + down.getX() + "," + down.getY() + "," + down.getZ() + ")!"),false);
     }
 
     private boolean isRightblock(BlockState state) {
