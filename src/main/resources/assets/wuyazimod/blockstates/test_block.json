@@ -1,0 +1,7 @@
+{
+  "variants":{
+    "": {
+      "model": "wuyazimod:block/test_block"
+    }
+  }
+}

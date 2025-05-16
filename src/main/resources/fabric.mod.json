@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "wuyazimod",
+	"version": "${version}",
+	"name": "wuyaziMod",
+	"description": "测试模组",
+	"authors": [
+		"凋零风暴教程"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/wuyazimod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"name.modid.WuyaziMod"
+		],
+		"client": [
+			"name.modid.WuyaziModClient"
+		],
+		"fabric-datagen": [
+			"name.modid.WuyaziModDataGenerator"
+		]
+	},
+	"mixins": [
+		"wuyazimod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

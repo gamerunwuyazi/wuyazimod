@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "group": "test",
+  "key": {
+    "#": {
+      "item": "wuyazimod:test"
+    }
+  },
+  "pattern": [
+  "###",
+  "###",
+  "###"
+  ],
+  "result": {
+    "item": "wuyazimod:test_block"
+  }
+}
