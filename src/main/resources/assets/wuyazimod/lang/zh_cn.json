@@ -5,5 +5,8 @@
   "block.wuyazimod.wuyazi_block": "无崖子方块",
   "item.wuyazimod.wuyazi": "无崖子物品",
   "item.wuyazimod.proitem": "高级方块 探矿器",
-  "block.wuyazimod.pro_block": "高级方块"
+  "block.wuyazimod.pro_block": "高级方块",
+  "item.wuyazimod.corn": "玉米",
+  "item.wuyazimod.strawberry": "草莓",
+  "item.wuyazimod.chess": "国际象棋"
 }

@@ -15,8 +15,9 @@ public class ModItems {
     public static Item TEST = registerItems("test",new Item(new FabricItemSettings()));
     public static Item WUYAZI = registerItems("wuyazi",new Item(new FabricItemSettings()));
     public static Item PROITEM = registerItems("proitem",new proitem(new FabricItemSettings().maxDamage(100000)));
-    public static Item CONE = registerItems("corn",new Item(new FabricItemSettings().food(ModFoodComponents.CORN)));
+    public static Item CORN = registerItems("corn",new Item(new FabricItemSettings().food(ModFoodComponents.CORN)));
     public static Item STRAWBERRY = registerItems("strawberry",new Item(new FabricItemSettings().food(ModFoodComponents.STRAWBERRY)));
+    public static Item CHESS = registerItems("chess",new Item(new FabricItemSettings().food(ModFoodComponents.CHESS)));
 
     //private  static  void  addItwmsToIGroup(FabricItemGroupEntries fabricItemGroupEntries){
     //    fabricItemGroupEntries.add(TEST);

@@ -5,5 +5,8 @@
   "block.wuyazimod.wuyazi_block": "wuyaziblock",
   "item.wuyazimod.wuyazi": "wuyaziitem",
   "item.wuyazimod.proitem": "proitem",
-  "block.wuyazimod.pro_block": "problock"
+  "block.wuyazimod.pro_block": "problock",
+  "item.wuyazimod.corn": "corn",
+  "item.wuyazimod.strawberry": "strawberry",
+  "item.wuyazimod.chess": "chess"
 }
