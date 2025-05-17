@@ -24,6 +24,7 @@ public class ModItemGrop {
                         entries.add(ModItems.CORN);
                         entries.add(ModItems.STRAWBERRY);
                         entries.add(ModItems.CHESS);
+                        entries.add(ModItems.GAMETEST);
                     }).build());
     public static void  registerModItemGroup(){
 

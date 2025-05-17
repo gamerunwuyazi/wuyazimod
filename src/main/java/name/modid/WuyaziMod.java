@@ -1,11 +1,11 @@
 package name.modid;
 
 import name.modid.block.ModBlocks;
-import name.modid.item.ModFoodComponents;
 import name.modid.item.ModItemGrop;
 import name.modid.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.registry.FuelRegistry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -30,5 +30,7 @@ public class WuyaziMod implements ModInitializer {
 		ModItems.registerModItems();
 		ModItemGrop.registerModItemGroup();
 		ModBlocks.registerModBlocks();
+
+		FuelRegistry.INSTANCE.add(ModItems.GAMETEST,999999);
 	}
 }

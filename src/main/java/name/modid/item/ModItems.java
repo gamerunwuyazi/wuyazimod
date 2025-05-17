@@ -18,6 +18,7 @@ public class ModItems {
     public static Item CORN = registerItems("corn",new Item(new FabricItemSettings().food(ModFoodComponents.CORN)));
     public static Item STRAWBERRY = registerItems("strawberry",new Item(new FabricItemSettings().food(ModFoodComponents.STRAWBERRY)));
     public static Item CHESS = registerItems("chess",new Item(new FabricItemSettings().food(ModFoodComponents.CHESS)));
+    public static Item GAMETEST = registerItems("gametest",new Item(new FabricItemSettings()));
 
     //private  static  void  addItwmsToIGroup(FabricItemGroupEntries fabricItemGroupEntries){
     //    fabricItemGroupEntries.add(TEST);
