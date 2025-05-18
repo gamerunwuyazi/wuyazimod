@@ -1,0 +1,4 @@
+// 1.20.1	2025-05-18T14:15:17.7433456	wuyaziMod/Tags for minecraft:block
+f5305e4f7654f7e4040717858e4e7a037d515ba0 data\minecraft\tags\blocks\needs_iron_tool.json
+39fc0b190e3b13237cc0bb4124403514507f102e data\minecraft\tags\blocks\needs_diamond_tool.json
+26cfbb17e5c88eadadf36dd0c7ef717bf24ff3c8 data\minecraft\tags\blocks\mineable\pickaxe.json

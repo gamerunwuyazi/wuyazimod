@@ -13,8 +13,10 @@ import net.minecraft.util.Identifier;
 public class ModItemGrop {
     public static  final ItemGroup wuyazi_GROUP = Registry.register(Registries.ITEM_GROUP,
             new Identifier(WuyaziMod.MOD_ID,"wuyazimod_group"),
-            FabricItemGroup.builder().displayName(Text.translatable("itemGroup.wuyazimod_group"))
-                    .icon(()-> new ItemStack(ModItems.TEST)).entries((displayContext, entries) -> {
+            FabricItemGroup.builder()
+                    .displayName(Text.translatable("itemGroup.wuyazimod_group"))
+                    .icon(()-> new ItemStack(ModItems.TEST))
+                    .entries((displayContext, entries) -> {
                         entries.add(ModItems.TEST);
                         entries.add(ModBlocks.TEST_BLOCK);
                         entries.add(ModBlocks.WUYAZI_BLOCK);
@@ -25,6 +27,8 @@ public class ModItemGrop {
                         entries.add(ModItems.STRAWBERRY);
                         entries.add(ModItems.CHESS);
                         entries.add(ModItems.GAMETEST);
+                        entries.add(ModBlocks.WOOD_TEST);
+                        //entries.add(ModBlocks.BUILD);
                     }).build());
     public static void  registerModItemGroup(){
 

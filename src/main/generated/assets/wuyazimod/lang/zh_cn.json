@@ -1,0 +1,14 @@
+{
+  "block.wuyazimod.pro_block": "高级方块",
+  "block.wuyazimod.test_block": "测试方块",
+  "block.wuyazimod.wood_test": "木镐可挖掘",
+  "block.wuyazimod.wuyazi_block": "无崖子方块",
+  "item.wuyazimod.chess": "国际象棋",
+  "item.wuyazimod.corn": "玉米",
+  "item.wuyazimod.gametest": "超级燃料",
+  "item.wuyazimod.proitem": "高级方块",
+  "item.wuyazimod.strawberry": "草莓",
+  "item.wuyazimod.test": "测试",
+  "item.wuyazimod.wuyazi": "无崖子",
+  "itemGroup.wuyazimod_group": "物品组"
+}

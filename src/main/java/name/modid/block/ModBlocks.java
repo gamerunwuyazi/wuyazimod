@@ -4,8 +4,10 @@ import name.modid.WuyaziMod;
 import name.modid.block.problock.problock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
+//import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.Blocks;
+import net.minecraft.block.StairsBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
@@ -21,6 +23,11 @@ public class ModBlocks {
     public static Block PRO_BLOCK = registerBlocks("pro_block",
             new problock(FabricBlockSettings.copyOf(Blocks.STONE)
                     .strength(0.5f,0.5f)));
+    public static Block WOOD_TEST = registerBlocks("wood_test",
+            new Block(FabricBlockSettings.copyOf(Blocks.STONE)
+                    .strength(0.7f,0.7f)));
+    //public static Block BUILD = registerBlocks("build",
+    //        new StairsBlock(TEST_BLOCK.getDefaultState(), FabricBlockSettings.copyOf(TEST_BLOCK)));
 
     private static Block registerBlocks(String name,Block block){
         registerBlockItems(name,block);
