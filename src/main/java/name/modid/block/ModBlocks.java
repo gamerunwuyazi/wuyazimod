@@ -7,7 +7,6 @@ import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 //import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
-import net.minecraft.item.Item;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 //import net.minecraft.registry.tag.BlockTags;
@@ -50,11 +49,10 @@ public class ModBlocks {
         return Registry.register(Registries.BLOCK,new Identifier(WuyaziMod.MOD_ID,name),block);
     }
 
-    private static Item registerBlockItems(String name, Block block){
-        return Registry.register(Registries.ITEM,new Identifier(WuyaziMod.MOD_ID,name),
-                new BlockItem(block,new FabricItemSettings()));
+    private static void registerBlockItems(String name, Block block){
+        Registry.register(Registries.ITEM, new Identifier(WuyaziMod.MOD_ID, name),
+                new BlockItem(block, new FabricItemSettings()));
     }
-
     public static void registerModBlocks(){
 
     }
