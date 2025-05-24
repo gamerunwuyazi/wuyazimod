@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wuyazimod:block/build1"
+    },
+    "type=double": {
+      "model": "wuyazimod:block/test_block"
+    },
+    "type=top": {
+      "model": "wuyazimod:block/build1_top"
+    }
+  }
+}

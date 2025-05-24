@@ -15,5 +15,14 @@ public class MdoLoorTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PRO_BLOCK);
         addDrop(ModBlocks.WUYAZI_BLOCK);
         addDrop(ModBlocks.WOOD_TEST);
+        addDrop(ModBlocks.BUILD, slabDrops(ModBlocks.BUILD));
+        addDrop(ModBlocks.BUILD1);
+        addDrop(ModBlocks.BUILD2);
+        addDrop(ModBlocks.BUILD3);
+        addDrop(ModBlocks.BUILD4);
+        addDrop(ModBlocks.BUILD5);
+        addDrop(ModBlocks.BUILD6);
+        addDrop(ModBlocks.BUILd7, slabDrops(ModBlocks.BUILd7));
+        addDrop(ModBlocks.BUILD8);
     }
 }

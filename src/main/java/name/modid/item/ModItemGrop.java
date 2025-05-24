@@ -28,7 +28,15 @@ public class ModItemGrop {
                         entries.add(ModItems.CHESS);
                         entries.add(ModItems.GAMETEST);
                         entries.add(ModBlocks.WOOD_TEST);
-                        //entries.add(ModBlocks.BUILD);
+                        entries.add(ModBlocks.BUILD);
+                        entries.add(ModBlocks.BUILD1);
+                        entries.add(ModBlocks.BUILD2);
+                        entries.add(ModBlocks.BUILD3);
+                        entries.add(ModBlocks.BUILD4);
+                        entries.add(ModBlocks.BUILD5);
+                        entries.add(ModBlocks.BUILD6);
+                        entries.add(ModBlocks.BUILd7);
+                        entries.add(ModBlocks.BUILD8);
                     }).build());
     public static void  registerModItemGroup(){
 

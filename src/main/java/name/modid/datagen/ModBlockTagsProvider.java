@@ -27,5 +27,11 @@ public class ModBlockTagsProvider extends FabricTagProvider.BlockTagProvider {
 
         getOrCreateTagBuilder(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.WUYAZI_BLOCK);
+        getOrCreateTagBuilder(BlockTags.FENCES)
+                .add(ModBlocks.BUILD4);
+        getOrCreateTagBuilder(BlockTags.WALLS)
+                .add(ModBlocks.BUILD6);
+        getOrCreateTagBuilder(BlockTags.FENCE_GATES)
+                .add(ModBlocks.BUILD5);
     }
 }

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "wuyazimod:block/test_block",
+    "side": "wuyazimod:block/test_block",
+    "top": "wuyazimod:block/test_block"
+  }
+}

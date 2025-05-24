@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "wuyazimod:block/test_block",
+    "side": "wuyazimod:block/test_block",
+    "top": "wuyazimod:block/test_block"
+  }
+}

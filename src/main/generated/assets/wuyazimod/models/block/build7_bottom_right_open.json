@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "textures": {
+    "bottom": "wuyazimod:block/build7_bottom",
+    "top": "wuyazimod:block/build7_top"
+  }
+}

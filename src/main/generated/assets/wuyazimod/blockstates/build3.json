@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "wuyazimod:block/build3"
+    },
+    "powered=true": {
+      "model": "wuyazimod:block/build3_down"
+    }
+  }
+}

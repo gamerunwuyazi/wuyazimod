@@ -1,4 +1,7 @@
-// 1.20.1	2025-05-18T14:15:17.7433456	wuyaziMod/Tags for minecraft:block
+// 1.20.1	2025-05-24T12:09:38.0848539	wuyaziMod/Tags for minecraft:block
+dcb0f8fa47236a7f7b0823dcfd9f579776c3d044 data\minecraft\tags\blocks\fence_gates.json
+27bcea845dd4087584fba1fdeede23affd9fdf61 data\minecraft\tags\blocks\walls.json
 f5305e4f7654f7e4040717858e4e7a037d515ba0 data\minecraft\tags\blocks\needs_iron_tool.json
 39fc0b190e3b13237cc0bb4124403514507f102e data\minecraft\tags\blocks\needs_diamond_tool.json
+b75e6a146afbe7cbc2f814ac635cbdfa11e889dd data\minecraft\tags\blocks\fences.json
 26cfbb17e5c88eadadf36dd0c7ef717bf24ff3c8 data\minecraft\tags\blocks\mineable\pickaxe.json
