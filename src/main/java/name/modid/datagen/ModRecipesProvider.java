@@ -22,6 +22,7 @@ public class ModRecipesProvider extends FabricRecipeProvider {
     @Override
     public void generate(Consumer<RecipeJsonProvider> exporter) {
         offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.TEST, RecipeCategory.BUILDING_BLOCKS, ModBlocks.TEST_BLOCK);
+        offerReversibleCompactingRecipes(exporter, RecipeCategory.MISC, ModItems.WUYAZI, RecipeCategory.BUILDING_BLOCKS, ModItems.GAMETEST);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.PROITEM, 1)
                 .pattern("121")

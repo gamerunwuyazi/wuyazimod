@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:gametest"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_wuyazi": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "wuyazimod:wuyazi"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_wuyazi",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:gametest"
+    ]
+  },
+  "sends_telemetry_event": false
+}

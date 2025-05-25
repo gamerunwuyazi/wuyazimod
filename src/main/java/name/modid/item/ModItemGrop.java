@@ -37,6 +37,11 @@ public class ModItemGrop {
                         entries.add(ModBlocks.BUILD6);
                         entries.add(ModBlocks.BUILD7);
                         entries.add(ModBlocks.BUILD8);
+                        entries.add(ModItems.TEST_TOOL);
+                        entries.add(ModItems.TEST_TOOL1);
+                        entries.add(ModItems.TEST_TOOL2);
+                        entries.add(ModItems.TEST_TOOL3);
+                        entries.add(ModItems.TEST_TOOL4);
                     }).build());
     public static void  registerModItemGroup(){
 

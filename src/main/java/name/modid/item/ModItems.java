@@ -5,7 +5,7 @@ import name.modid.item.proitem.proitem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 //import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
 //import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
-import net.minecraft.item.Item;
+import net.minecraft.item.*;
 //import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
@@ -19,16 +19,22 @@ public class ModItems {
     public static Item STRAWBERRY = registerItems("strawberry",new Item(new FabricItemSettings().food(ModFoodComponents.STRAWBERRY)));
     public static Item CHESS = registerItems("chess",new Item(new FabricItemSettings().food(ModFoodComponents.CHESS)));
     public static Item GAMETEST = registerItems("gametest",new Item(new FabricItemSettings()));
-
-    //private  static  void  addItwmsToIGroup(FabricItemGroupEntries fabricItemGroupEntries){
-    //    fabricItemGroupEntries.add(TEST);
-    //}
+    public static Item TEST_TOOL = registerItems("test_tool", new SwordItem(ModToolMaterials.TEST_TOOL,
+            2, -3.0F, new Item.Settings()));
+    public static Item TEST_TOOL1 = registerItems("test_tool1", new ShovelItem(ModToolMaterials.TEST_TOOL,
+            3, -2.0F, new Item.Settings()));
+    public static Item TEST_TOOL2 = registerItems("test_tool2", new PickaxeItem(ModToolMaterials.TEST_TOOL,
+            4, -1.0F, new Item.Settings()));
+    public static Item TEST_TOOL3 = registerItems("test_tool3", new AxeItem(ModToolMaterials.TEST_TOOL,
+            1, -4.0F, new Item.Settings()));
+    public static Item TEST_TOOL4 = registerItems("test_tool4", new HoeItem(ModToolMaterials.TEST_TOOL,
+            -3, -4.0F, new Item.Settings()));
 
     private static Item registerItems(String name,Item item){
         return Registry.register(Registries.ITEM,new Identifier(WuyaziMod.MOD_ID,name),item);
     }
 
     public static void registerModItems(){
-        //ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItems::addItwmsToIGroup);
+
     }
 }

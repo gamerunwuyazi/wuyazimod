@@ -37,5 +37,11 @@ public class ModModlesProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.WUYAZI, Models.GENERATED);
         itemModelGenerator.register(ModItems.PROITEM, Models.GENERATED);
         itemModelGenerator.register(ModItems.GAMETEST, Models.GENERATED);
+
+        itemModelGenerator.register(ModItems.TEST_TOOL, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TEST_TOOL1, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TEST_TOOL2, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TEST_TOOL3, Models.HANDHELD);
+        itemModelGenerator.register(ModItems.TEST_TOOL4, Models.HANDHELD);
     }
 }
