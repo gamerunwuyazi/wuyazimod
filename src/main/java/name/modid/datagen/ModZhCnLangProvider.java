@@ -17,7 +17,7 @@ public class ModZhCnLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModItems.CHESS, "国际象棋");
         translationBuilder.add(ModItems.STRAWBERRY, "草莓");
         translationBuilder.add(ModItems.WUYAZI, "无崖子");
-        translationBuilder.add(ModItems.PROITEM, "高级方块");
+        translationBuilder.add(ModItems.PROITEM, "高级物品 探矿器");
         translationBuilder.add(ModItems.GAMETEST, "超级燃料");
 
         translationBuilder.add(ModBlocks.PRO_BLOCK, "高级方块");

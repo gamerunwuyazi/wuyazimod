@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "1": {
+      "item": "minecraft:redstone"
+    },
+    "2": {
+      "item": "minecraft:ochre_froglight"
+    },
+    "3": {
+      "item": "minecraft:iron_block"
+    },
+    "4": {
+      "item": "minecraft:diamond"
+    }
+  },
+  "pattern": [
+    "121",
+    "141",
+    "131"
+  ],
+  "result": {
+    "item": "wuyazimod:proitem"
+  },
+  "show_notification": true
+}

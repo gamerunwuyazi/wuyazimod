@@ -22,7 +22,7 @@ public class MdoLoorTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.BUILD4);
         addDrop(ModBlocks.BUILD5);
         addDrop(ModBlocks.BUILD6);
-        addDrop(ModBlocks.BUILd7, slabDrops(ModBlocks.BUILd7));
+        addDrop(ModBlocks.BUILD7, slabDrops(ModBlocks.BUILD7));
         addDrop(ModBlocks.BUILD8);
     }
 }

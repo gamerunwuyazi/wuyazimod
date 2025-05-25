@@ -39,7 +39,7 @@ public class ModBlocks {
             new FenceGateBlock(AbstractBlock.Settings.copy(TEST_BLOCK),WoodType.OAK));
     public static final Block BUILD6 = registerBlocks("build6",
             new WallBlock(AbstractBlock.Settings.copy(TEST_BLOCK)));
-    public static final Block BUILd7 = registerBlocks("build7",
+    public static final Block BUILD7 = registerBlocks("build7",
             new DoorBlock(AbstractBlock.Settings.copy(TEST_BLOCK),BlockSetType.IRON));
     public static final Block BUILD8 = registerBlocks("build8",
             new TrapdoorBlock(AbstractBlock.Settings.copy(TEST_BLOCK).nonOpaque(),BlockSetType.STONE));

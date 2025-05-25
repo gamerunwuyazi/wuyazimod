@@ -19,7 +19,7 @@ public class ModBlocksFamilis {
             .fence(ModBlocks.BUILD4)
             .fenceGate(ModBlocks.BUILD5)
             .wall(ModBlocks.BUILD6)
-            .door(ModBlocks.BUILd7)
+            .door(ModBlocks.BUILD7)
             .trapdoor(ModBlocks.BUILD8)
             .build();
 
