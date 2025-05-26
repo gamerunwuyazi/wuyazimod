@@ -1,12 +1,12 @@
 {
   "parent": "minecraft:recipes/root",
   "criteria": {
-    "has_gametest": {
+    "has_stone": {
       "conditions": {
         "items": [
           {
             "items": [
-              "wuyazimod:gametest"
+              "minecraft:stone"
             ]
           }
         ]
@@ -15,20 +15,20 @@
     },
     "has_the_recipe": {
       "conditions": {
-        "recipe": "minecraft:wuyazi"
+        "recipe": "wuyazimod:wuyazi"
       },
       "trigger": "minecraft:recipe_unlocked"
     }
   },
   "requirements": [
     [
-      "has_gametest",
+      "has_stone",
       "has_the_recipe"
     ]
   ],
   "rewards": {
     "recipes": [
-      "minecraft:wuyazi"
+      "wuyazimod:wuyazi"
     ]
   },
   "sends_telemetry_event": false

@@ -1,11 +1,11 @@
-// 1.20.1	2025-05-25T12:57:25.3404165	wuyaziMod/Recipes
-d4b3011d11e9f13090a04ab9f2c37e74ed3785a4 data\wuyazimod\advancements\recipes\building_blocks\gametest.json
+// 1.20.1	2025-05-26T20:39:57.7814116	wuyaziMod/Recipes
 9f587052c5c7a1d741cfe15d609fa8293c111746 data\wuyazimod\advancements\recipes\tools\proitem.json
 774ad86b709ba2e07c5fe77d2a8535085408a397 data\wuyazimod\recipes\test.json
 acd170771bd9edffaea27f0badbd6f0a6007a275 data\wuyazimod\recipes\proitem.json
-54b06b84c186c5cd35d23c4683fd7a5ede20e207 data\wuyazimod\recipes\gametest.json
+e09debb2fac14ed03c63fcfce6f9ba185d8c587c data\wuyazimod\recipes\gametest.json
 71777b9fd634002271a9cc3d9030bcd705d55719 data\wuyazimod\recipes\test_block.json
-37a6af20fa6be2d3ad6081d1b144ac31c67b665b data\wuyazimod\recipes\wuyazi.json
-2033593ac447499dbdc01ff16aab7342dcd1fd02 data\wuyazimod\advancements\recipes\misc\wuyazi.json
+6fb51406e9b740b083f2ace8b0f68401b77c22b2 data\wuyazimod\recipes\wuyazi.json
+15f3db21bc37879928e786976db87cc23ddf8cf6 data\wuyazimod\advancements\recipes\misc\wuyazi.json
 a4792fa82f7ba795efe7b1c680e844e907ca94b7 data\wuyazimod\advancements\recipes\misc\test.json
 cb549550777142726d1902f6067a18efe46c6e81 data\wuyazimod\advancements\recipes\building_blocks\test_block.json
+cc615a7bfb0dc80f8d9d7e45c95e82467444aecb data\wuyazimod\advancements\recipes\misc\gametest.json

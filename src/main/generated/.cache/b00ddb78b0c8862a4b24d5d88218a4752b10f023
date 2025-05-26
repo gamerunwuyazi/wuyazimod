@@ -1,12 +1,12 @@
-// 1.20.1	2025-05-25T12:57:25.318129	wuyaziMod/Block Loot Tables
+// 1.20.1	2025-05-26T20:39:57.7589186	wuyaziMod/Block Loot Tables
 c7b1aa083c724947c1355f123e649f5e4e7d9eaf data\wuyazimod\loot_tables\blocks\build7.json
 d61da359413b76ebfe6987cb7edb9b700a8eba6c data\wuyazimod\loot_tables\blocks\build3.json
 de85d557e01187eba542a99530e9b68727f08aae data\wuyazimod\loot_tables\blocks\build4.json
 242fc36aa72c6fb671f40d87246a9b473e7c4c4f data\wuyazimod\loot_tables\blocks\wood_test.json
 77cb63e518ab9d208791e775dd510e399730be98 data\wuyazimod\loot_tables\blocks\test_block.json
 286bbac03625ede33b42bf66034e7848b5703b1d data\wuyazimod\loot_tables\blocks\build.json
-60193c0f89cc0276cc32a6dda59b417091523c4a data\wuyazimod\loot_tables\blocks\build2.json
 763ba8bdb1b7b8fd74b998c772d59f19a4db80e8 data\wuyazimod\loot_tables\blocks\build5.json
+60193c0f89cc0276cc32a6dda59b417091523c4a data\wuyazimod\loot_tables\blocks\build2.json
 46c6ce8f198b875c2ada798a9ae3a96dc75ca090 data\wuyazimod\loot_tables\blocks\wuyazi_block.json
 700bb50476b7b9b48276d982e864a27cb44cd6a9 data\wuyazimod\loot_tables\blocks\build8.json
 ad2353a785a89372189e89633644f7c2db13e79e data\wuyazimod\loot_tables\blocks\pro_block.json

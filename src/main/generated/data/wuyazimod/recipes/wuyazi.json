@@ -1,13 +1,18 @@
 {
-  "type": "minecraft:crafting_shapeless",
+  "type": "minecraft:crafting_shaped",
   "category": "misc",
-  "ingredients": [
-    {
-      "item": "wuyazimod:gametest"
+  "key": {
+    "#": {
+      "item": "minecraft:stone"
     }
+  },
+  "pattern": [
+    "###",
+    "###",
+    "###"
   ],
   "result": {
-    "count": 9,
     "item": "wuyazimod:wuyazi"
-  }
+  },
+  "show_notification": true
 }

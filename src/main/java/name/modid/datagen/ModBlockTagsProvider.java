@@ -1,6 +1,7 @@
 package name.modid.datagen;
 
 import name.modid.block.ModBlocks;
+import name.modid.tag.ModBlockTags;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricTagProvider;
 import net.minecraft.registry.RegistryWrapper;
@@ -42,5 +43,8 @@ public class ModBlockTagsProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.BUILD6);
         getOrCreateTagBuilder(BlockTags.FENCE_GATES)
                 .add(ModBlocks.BUILD5);
+        getOrCreateTagBuilder(ModBlockTags.TEST_TOOL_PRO)
+                .forceAddTag(BlockTags.AXE_MINEABLE)
+                .forceAddTag(BlockTags.PICKAXE_MINEABLE);
     }
 }

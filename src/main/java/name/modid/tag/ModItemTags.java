@@ -8,6 +8,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItemTags {
     public static final TagKey<Item> TESTA = of("test1");
+
     private static TagKey<Item> of(String id) {
         return TagKey.of(RegistryKeys.ITEM, new Identifier(WuyaziMod.MOD_ID,id));
     }
