@@ -26,5 +26,6 @@ public class ModEnUsLangProvider extends FabricLanguageProvider {
         translationBuilder.add(ModBlocks.WOOD_TEST, "wood test");
 
         translationBuilder.add("itemGroup.wuyazimod_group", "item group");
+        translationBuilder.add("tooltip.wuyazimod.a_tooltip", "a tooltip");
     }
 }

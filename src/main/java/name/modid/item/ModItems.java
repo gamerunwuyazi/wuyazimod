@@ -30,8 +30,8 @@ public class ModItems {
             6, -2.0F, new Item.Settings()));
     public static Item TEST_TOOL4 = registerItems("test_tool4", new HoeItem(ModToolMaterials.TEST_TOOL,
             -1, -3.0F, new Item.Settings()));
-    public static final Item TEST_TOOL_PRO = registerItems("test_tool_pro", new Test_Tool_Pro(ModToolMaterials.TEST_TOOL,
-            6.0F, -1.5F, new Item.Settings()));
+    public static Item TEST_TOOL_PRO = registerItems("test_tool_pro", new Test_Tool_Pro(ModToolMaterials.TEST_TOOL,
+            6.0f, -1.5F, new Item.Settings()));
 
     private static Item registerItems(String name,Item item){
         return Registry.register(Registries.ITEM,new Identifier(WuyaziMod.MOD_ID,name),item);

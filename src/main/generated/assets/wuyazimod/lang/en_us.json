@@ -10,5 +10,6 @@
   "item.wuyazimod.strawberry": "dtrawberry",
   "item.wuyazimod.test": "test",
   "item.wuyazimod.wuyazi": "wuyazi",
-  "itemGroup.wuyazimod_group": "item group"
+  "itemGroup.wuyazimod_group": "item group",
+  "tooltip.wuyazimod.a_tooltip": "a tooltip"
 }
