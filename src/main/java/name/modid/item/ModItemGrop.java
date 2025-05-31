@@ -2,6 +2,7 @@ package name.modid.item;
 
 import name.modid.WuyaziMod;
 import name.modid.block.ModBlocks;
+import name.modid.datagen.MdoLoorTableProvider;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -43,6 +44,10 @@ public class ModItemGrop {
                         entries.add(ModItems.TEST_TOOL3);
                         entries.add(ModItems.TEST_TOOL4);
                         entries.add(ModItems.TEST_TOOL_PRO);
+                        entries.add(ModItems.TEST_HELMET);
+                        entries.add(ModItems.TEST_CHESTPLATE);
+                        entries.add(ModItems.TEST_LEGGINGS);
+                        entries.add(ModItems.TEST_BOOTS);
                     }).build());
     public static void  registerModItemGroup(){
 

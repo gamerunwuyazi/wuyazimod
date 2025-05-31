@@ -9,6 +9,7 @@ import net.minecraft.data.client.BlockStateModelGenerator;
 import net.minecraft.data.client.ItemModelGenerator;
 import net.minecraft.data.client.Models;
 import net.minecraft.data.family.BlockFamily;
+import net.minecraft.item.ArmorItem;
 
 public class ModModlesProvider extends FabricModelProvider {
     public ModModlesProvider(FabricDataOutput output) {
@@ -44,5 +45,10 @@ public class ModModlesProvider extends FabricModelProvider {
         itemModelGenerator.register(ModItems.TEST_TOOL3, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TEST_TOOL4, Models.HANDHELD);
         itemModelGenerator.register(ModItems.TEST_TOOL_PRO, Models.HANDHELD);
+
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.TEST_HELMET);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.TEST_BOOTS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.TEST_LEGGINGS);
+        itemModelGenerator.registerArmor((ArmorItem) ModItems.TEST_CHESTPLATE);
     }
 }

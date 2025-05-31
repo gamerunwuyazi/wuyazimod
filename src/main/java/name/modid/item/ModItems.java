@@ -32,6 +32,14 @@ public class ModItems {
             -1, -3.0F, new Item.Settings()));
     public static Item TEST_TOOL_PRO = registerItems("test_tool_pro", new Test_Tool_Pro(ModToolMaterials.TEST_TOOL,
             6.0f, -1.5F, new Item.Settings()));
+    public static Item TEST_HELMET = registerItems("test_helmet", new ArmorItem(ModArmorMaterials.TEST_TOOL1,
+            ArmorItem.Type.HELMET, new Item.Settings()));
+    public static Item TEST_LEGGINGS = registerItems("test_leggings", new ArmorItem(ModArmorMaterials.TEST_TOOL1,
+            ArmorItem.Type.LEGGINGS, new Item.Settings()));
+    public static Item TEST_CHESTPLATE = registerItems("test_chestplate", new ArmorItem(ModArmorMaterials.TEST_TOOL1,
+            ArmorItem.Type.CHESTPLATE, new Item.Settings()));
+    public static Item TEST_BOOTS = registerItems("test_boots", new ArmorItem(ModArmorMaterials.TEST_TOOL1,
+            ArmorItem.Type.BOOTS, new Item.Settings()));
 
     private static Item registerItems(String name,Item item){
         return Registry.register(Registries.ITEM,new Identifier(WuyaziMod.MOD_ID,name),item);

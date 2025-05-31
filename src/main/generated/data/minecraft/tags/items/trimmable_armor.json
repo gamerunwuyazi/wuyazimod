@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "wuyazimod:test_helmet",
+    "wuyazimod:test_boots",
+    "wuyazimod:test_chestplate",
+    "wuyazimod:test_leggings"
+  ]
+}
