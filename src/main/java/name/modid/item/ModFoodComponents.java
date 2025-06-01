@@ -1,7 +1,6 @@
 package name.modid.item;
 
 import net.minecraft.entity.effect.StatusEffectInstance;
-import net.minecraft.entity.effect.StatusEffectUtil;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.FoodComponent;
 
@@ -15,13 +14,13 @@ public class ModFoodComponents {
             .Builder()
             .hunger(1)
             .saturationModifier(0.3f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED,9999999),0.2f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.SPEED,9999999),0.8f)
             .build();
     public static final FoodComponent CHESS = new FoodComponent
             .Builder()
             .hunger(4)
             .saturationModifier(0.8f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE,9999999),0.5f)
-            .statusEffect(new StatusEffectInstance(StatusEffects.GLOWING,9999999),0.4f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.FIRE_RESISTANCE,9999999),0.8f)
+            .statusEffect(new StatusEffectInstance(StatusEffects.GLOWING,9999999),0.8f)
             .build();
 }

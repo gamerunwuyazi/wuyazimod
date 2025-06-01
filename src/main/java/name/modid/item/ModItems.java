@@ -1,25 +1,23 @@
 package name.modid.item;
 
 import name.modid.WuyaziMod;
+import name.modid.item.custom.ModArmorItem;
 import name.modid.item.custom.Test_Tool_Pro;
 import name.modid.item.proitem.proitem;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
-//import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroupEntries;
-//import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.item.*;
-//import net.minecraft.item.ItemGroups;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
 public class ModItems {
-    public static Item TEST = registerItems("test",new Item(new FabricItemSettings()));
-    public static Item WUYAZI = registerItems("wuyazi",new Item(new FabricItemSettings()));
-    public static Item PROITEM = registerItems("proitem",new proitem(new FabricItemSettings().maxDamage(100000)));
-    public static Item CORN = registerItems("corn",new Item(new FabricItemSettings().food(ModFoodComponents.CORN)));
-    public static Item STRAWBERRY = registerItems("strawberry",new Item(new FabricItemSettings().food(ModFoodComponents.STRAWBERRY)));
-    public static Item CHESS = registerItems("chess",new Item(new FabricItemSettings().food(ModFoodComponents.CHESS)));
-    public static Item GAMETEST = registerItems("gametest",new Item(new FabricItemSettings()));
+    public static Item TEST = registerItems("test", new Item(new FabricItemSettings()));
+    public static Item WUYAZI = registerItems("wuyazi", new Item(new FabricItemSettings()));
+    public static Item PROITEM = registerItems("proitem", new proitem(new FabricItemSettings().maxDamage(100000)));
+    public static Item CORN = registerItems("corn", new Item(new FabricItemSettings().food(ModFoodComponents.CORN)));
+    public static Item STRAWBERRY = registerItems("strawberry", new Item(new FabricItemSettings().food(ModFoodComponents.STRAWBERRY)));
+    public static Item CHESS = registerItems("chess", new Item(new FabricItemSettings().food(ModFoodComponents.CHESS)));
+    public static Item GAMETEST = registerItems("gametest", new Item(new FabricItemSettings()));
     public static Item TEST_TOOL = registerItems("test_tool", new SwordItem(ModToolMaterials.TEST_TOOL,
             5, -3.0F, new Item.Settings()));
     public static Item TEST_TOOL1 = registerItems("test_tool1", new ShovelItem(ModToolMaterials.TEST_TOOL,
@@ -32,17 +30,17 @@ public class ModItems {
             -1, -3.0F, new Item.Settings()));
     public static Item TEST_TOOL_PRO = registerItems("test_tool_pro", new Test_Tool_Pro(ModToolMaterials.TEST_TOOL,
             6.0f, -1.5F, new Item.Settings()));
-    public static Item TEST_HELMET = registerItems("test_helmet", new ArmorItem(ModArmorMaterials.TEST_TOOL1,
+    public static Item TEST_HELMET = registerItems("test_helmet", new ModArmorItem(ModArmorMaterials.TEST_TOOL1,
             ArmorItem.Type.HELMET, new Item.Settings()));
-    public static Item TEST_LEGGINGS = registerItems("test_leggings", new ArmorItem(ModArmorMaterials.TEST_TOOL1,
+    public static Item TEST_LEGGINGS = registerItems("test_leggings", new ModArmorItem(ModArmorMaterials.TEST_TOOL1,
             ArmorItem.Type.LEGGINGS, new Item.Settings()));
-    public static Item TEST_CHESTPLATE = registerItems("test_chestplate", new ArmorItem(ModArmorMaterials.TEST_TOOL1,
+    public static Item TEST_CHESTPLATE = registerItems("test_chestplate", new ModArmorItem(ModArmorMaterials.TEST_TOOL1,
             ArmorItem.Type.CHESTPLATE, new Item.Settings()));
-    public static Item TEST_BOOTS = registerItems("test_boots", new ArmorItem(ModArmorMaterials.TEST_TOOL1,
+    public static Item TEST_BOOTS = registerItems("test_boots", new ModArmorItem(ModArmorMaterials.TEST_TOOL1,
             ArmorItem.Type.BOOTS, new Item.Settings()));
 
-    private static Item registerItems(String name,Item item){
-        return Registry.register(Registries.ITEM,new Identifier(WuyaziMod.MOD_ID,name),item);
+    private static Item registerItems(String name, Item item) {
+        return Registry.register(Registries.ITEM, new Identifier(WuyaziMod.MOD_ID, name), item);
     }
 
     public static void registerModItems(){

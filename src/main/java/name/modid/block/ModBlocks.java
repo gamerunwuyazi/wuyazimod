@@ -4,12 +4,11 @@ import name.modid.WuyaziMod;
 import name.modid.block.problock.problock;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-//import net.minecraft.block.AbstractBlock;
+import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
-//import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.Identifier;
 
 public class ModBlocks {
